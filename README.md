@@ -13,9 +13,9 @@ Este proyecto es un sistema básico para gestionar usuarios y tareas a través d
 
 **Ejecución del proyecto:**
 
-1. Clonar o descargar el repositorio escribiendo en la terminal: git clone https://github.com/msteinaker/PFO3-GestionDeTareas.git
+1. Clonar o descargar el repositorio escribiendo en la terminal: git clone https://github.com/msteinaker/PFO2-GestionDeTareas.git
 
-2. Posicionarse en la carpeta principal del proyecto con el comando: cd PFO3-GestionDeTareas
+2. Posicionarse en la carpeta principal del proyecto con el comando: cd PFO2-GestionDeTareas
 
 3. Abrir una terminal e instalar las librerías con el comando: 
 pip install Flask requests Werkzeug
