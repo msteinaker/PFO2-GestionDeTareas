@@ -1,6 +1,6 @@
 import requests
 
-API_URL = "http://127.0.0.1:5000"
+API_URL = "http://127.0.0.1:5000" 
 
 def registrar_usuario():
     # Pedir al usuario su nombre y contraseña
