@@ -15,16 +15,18 @@ Este proyecto es un sistema básico para gestionar usuarios y tareas a través d
 
 1. Clonar o descargar el repositorio escribiendo en la terminal: git clone https://github.com/msteinaker/PFO3-GestionDeTareas.git
 
-2. Abrir una terminal en la carpeta del proyecto, e instalar las librerías con el comando: 
+2. Posicionarse en la carpeta principal del proyecto con el comando: cd PFO3-GestionDeTareas
+
+3. Abrir una terminal e instalar las librerías con el comando: 
 pip install Flask requests Werkzeug
 
-3. Ejecutar el servidor con: python servidor.py
+4. Ejecutar el servidor con: python servidor.py
 
-4. El servidor correrá en http://127.0.0.1:5000
+5. El servidor correrá en http://127.0.0.1:5000
 
-5. Para probar la parte del cliente, abrir otra terminal y ejecutar: python cliente.py
+6. Para probar la parte del cliente, abrir otra terminal y ejecutar: python cliente.py
 
-6. El cliente mostrará un menú para registrar usuarios, iniciar sesión, crear, ver y eliminar tareas.
+7. El cliente mostrará un menú para registrar usuarios, iniciar sesión, crear, ver y eliminar tareas.
 
 **Funcionalidades:**
 - Registrar un nuevo usuario: se pedirán usuario y contraseña. Si ya existe, nos mostrará un mensaje. Si todo está correcto, se creará uno nuevo con esos datos.
