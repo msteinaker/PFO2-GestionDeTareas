@@ -11,7 +11,7 @@ Este proyecto es un sistema básico para gestionar usuarios y tareas a través d
 - templates/index.html: Página de bienvenida.
 - cliente.py: Script Python para interactuar con la API desde consola.
 
-Ejecución del proyecto:
+**Ejecución del proyecto:**
 
 1. Clonar o descargar el repositorio.
 
@@ -26,7 +26,7 @@ pip install Flask requests Werkzeug
 
 6. El cliente mostrará un menú para registrar usuarios, iniciar sesión, crear, ver y eliminar tareas.
 
-Interacciones posibles:
+**Funcionalidades:**
 - Registrar un nuevo usuario: se pedirán usuario y contraseña. Si ya existe, nos mostrará un mensaje. Si todo está correcto, se creará uno nuevo con esos datos.
 - Iniciar sesión: el cliente te pedirá estas credenciales, y el servidor va a verificar si son válidas, enviándonos un mensaje para confirmar si pudimos iniciar sesión o no.
 - Crear tareas: luego de iniciar sesión, podrás crear tareas con su descripción.
@@ -35,7 +35,7 @@ Interacciones posibles:
 - Marcar tareas como completadas: podrás marcar las tareas que hayas creado como completadas, poniendo su ID. 
 
 
-Endpoints principales:
+**Endpoints principales:**
 - POST /registro: registra usuarios, recibiendo un JSON con usuario y contraseña.
   Ejemplo de solicitud: {"usuario": "nombre", "contraseña": "1234"}
 - POST /login: Inicia sesión verificando las credenciales.
