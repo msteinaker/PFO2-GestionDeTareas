@@ -6,38 +6,66 @@
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f0f4f8;
+            background: #f4f6f9;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
+            margin: 0;
             color: #333;
         }
+
         h1 {
             color: #2c3e50;
             font-size: 2.5rem;
-
+            margin-bottom: 1rem;
+            transition: color 0.2s ease;
         }
+
+        h1:hover {
+            color: #5d6d7e; /* Cambio de color más sutil */
+        }
+
         p {
             font-size: 1.2rem;
             color: #555;
+            line-height: 1.6;
+            margin-top: 0;
         }
+
         .container {
             background: white;
             padding: 2rem 3rem;
             border-radius: 12px;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.1);
             text-align: center;
-            max-width: 400px;
+            max-width: 450px;
             width: 90%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 16px 36px rgba(0,0,0,0.15);
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #2980b9; /* Tono más oscuro al hacer hover */
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>¡Bienvenido/a al Gestor de tareas!</h1>
-        <p>Para descargar el proyecto completo ingresá a: https://github.com/msteinaker/PFO3-GestionDeTareas </p>
+        <p>Para descargar el proyecto completo ingresá a: <a href="https://github.com/msteinaker/PFO3-GestionDeTareas" target="_blank">https://github.com/msteinaker/PFO3-GestionDeTareas</a></p>
     </div>
 </body>
 </html>

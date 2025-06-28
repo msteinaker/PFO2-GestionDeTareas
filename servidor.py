@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, render_template
 import sqlite3
 from werkzeug.security import generate_password_hash, check_password_hash
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='./')
 
 # Conectar a la bd SQLite
 def conectar_db():
